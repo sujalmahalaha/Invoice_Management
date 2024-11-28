@@ -1,52 +1,50 @@
 # Invoice Management System  
 
-A full-stack Invoice Management System with a Django REST Framework backend and React frontend.  
-
-## Author  
-**Sujal Mahalaha**  
-
-
+A **full-stack solution** for managing invoices, built with **Django REST Framework** (backend) and **React** (frontend).  
 
 ---
 
-## Features  
+## 👤 Author  
+**Sujal Mahalaha**  
+
+---
+
+## ⚙️ Features  
 
 ### Backend  
 - **Models**:  
-  1. **Invoice**: Stores invoice number, customer name, and date.  
-  2. **InvoiceDetail**: Includes description, quantity, unit price, and computed line total.  
-
+  - `Invoice`: Tracks invoice details like number, customer name, and date.  
+  - `InvoiceDetail`: Includes description, quantity, unit price, and total.  
 - **API**:  
   - URL: `/api/invoices/`  
   - Methods: `GET`, `POST`, `PUT`, `DELETE`  
-  - Features: Validation, auto-computed totals, pagination, and detailed error messages.  
+- **Key Features**:  
+  - Auto-computed totals  
+  - Paginated responses  
+  - Detailed error handling  
 
 ### Frontend  
-- Responsive and user-friendly interface.  
-- Features:  
-  - Invoice list with pagination  
-  - Create/Edit invoice form  
-  - Delete functionality  
-  - Basic search and filter options  
+- Responsive UI with features like:  
+  - Paginated invoice list  
+  - Create/Edit/Delete invoices  
+  - Search and filter options  
 
 ---
 
-## Tech Stack  
-- **Frontend**: React, Vite, TailwindCSS  
+## 🛠️ Tech Stack  
+- **Frontend**: React, TailwindCSS  
 - **Backend**: Django REST Framework, PostgreSQL  
 - **Deployment**: Vercel  
 
 ---
 
-## Setup  
+## 🚀 Setup  
 
 ### Frontend  
 1. Initialize the project:  
-    ```bash
-    npm create vite@latest frontend -- --template react
-    npm install -D tailwindcss postcss autoprefixer
-    npx tailwindcss init -p
-    ```
+   ```bash
+   npm create vite@latest frontend -- --template react
+   npm install -D tailwindcss postcss autoprefixer
 2. Add TailwindCSS to your CSS file:  
     ```css
     @tailwind base;
