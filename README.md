@@ -1,11 +1,12 @@
 # Invoice Management System  
 
 A **full-stack solution** for managing invoices, built with **Django REST Framework** (backend) and **React** (frontend).  
-deployment link - https://frontend-cx6rlemx5-sujal-mahalahas-projects.vercel.app/
+
 ---
 
 ## 👤 Author  
 **Sujal Mahalaha**  
+deployment link - https://frontend-cx6rlemx5-sujal-mahalahas-projects.vercel.app/
 
 ---
 
